@@ -1,0 +1,8 @@
+
+<ol *ngIf="!isLoading">
+    <li *ngFor="let quote of lis">
+    {{ quote.title }}
+  </li>
+</ol> 
+<div *ngIf="isLoading">Loading...</div>
+
